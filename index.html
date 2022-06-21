@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/image.css">    
+    <link rel="stylesheet" href="image/image.css">
+    <link rel="stylesheet" href="style/js.js">
+    <link rel="stylesheet" href="audio/reveal.mp3">
+
+</head>
+<body>
+    <div id = "container">
+
+    <div id = "navigation">
+        
+        <div class = "left-button" >About Me
+            <!-- <a href ="index.html">About Me</a> -->
+        </div>
+        <div class = "middle-button" onclick="playReveal()"> Start
+    <!-- <meta type = "button" content = "20; url = file:///C:/Users/johnt/Downloads/Fart%20sound%20effect.mp3" /> -->
+            <!-- <a href ="blog1.html">Hell is Far from Earth</a>  -->
+        </div>
+        <div class = "right-button"> More
+            <!-- <a href ="blog2.html">Start</a> -->
+        </div>
+        
+    </div>
+    <!-- CREATE SCARY MAZE GAME : WITH AND WITHOUT JAVA SCRIPT-->
+<div id = "bottom-container" >
+
+    <div id = "game-container" onclick="selectTile()">
+        <table >
+            <tr >
+                <!-- 4 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 8 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 12 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 16 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+            </tr>
+            <tr>
+                <!-- 4 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 8 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 12 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 16 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+            </tr>
+            <tr>
+                 <!-- 4 -->
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <!-- 8 -->
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <!-- 12 -->
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <!-- 16 -->
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+            </tr>
+            <tr>
+                <!-- 4 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 8 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 12 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 16 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+            </tr>
+            
+            <tr>
+                 <!-- 4 -->
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <!-- 8 -->
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <!-- 12 -->
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <!-- 16 -->
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+            </tr>
+            <tr>
+                <!-- 4 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 8 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 12 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 16 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+            </tr>
+            <tr>
+                <!-- 4 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 8 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 12 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 16 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+            </tr>
+            <tr>
+                 <!-- 4 -->
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <!-- 8 -->
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <!-- 12 -->
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <!-- 16 -->
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+            </tr>
+            <!-- 12 -->
+            <tr>
+                 <!-- 4 -->
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <!-- 8 -->
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <!-- 12 -->
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <!-- 16 -->
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+            </tr>
+            <tr>
+                <!-- 4 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 8 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 12 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 16 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+            </tr>
+            <tr>
+                <!-- 4 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 8 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 12 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 16 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+            </tr>
+            <tr>
+                <!-- 4 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 8 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 12 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 16 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+            </tr>
+            <!-- 16 -->
+           <tr>
+                <!-- 4 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 8 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 12 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 16 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+            </tr>
+            <tr>
+                 <!-- 4 -->
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <!-- 8 -->
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <!-- 12 -->
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <!-- 16 -->
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+                 <td class = "row"></td>
+            </tr>
+            <tr>
+                <!-- 4 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 8 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 12 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 16 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+            </tr>
+            <tr>
+                <!-- 4 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 8 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 12 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <!-- 16 -->
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+                <td class = "row"></td>
+            </tr>
+        </table>
+    </div>
+</div>
+  
+<audio id="audioReveal" >
+    <source src="file:///C:/Users/johnt/Downloads/Reveal%20Sound%20Effect.mp3" type = "audio/mpeg">
+</audio>
+
+<audio id="audioClown">
+    <source src="file:///C:/Users/johnt/Downloads/clown-sound.mp3" type = "audio/mpeg"> 
+</audio>
+
+<script src="style/js.js"></script>
+
+</div>
+</body>
+</html>
